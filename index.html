@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio | Professional & Creative</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container header-container">
+        <a href="#home" class="logo">Aimen Munir</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+          <ul class="nav-menu">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <p class="hero-subtitle">Hey there! I'm</p>
+        <h1 class="hero-title">Aimen Munir</h1>
+        <h2 class="hero-title">
+          I am trying to induce web-dev into my viens (but i love to explore)
+        </h2>
+        <p class="hero-description">
+          I'm a forth semester CompSci student and VP @ ACM CUI Lhr, loving to
+          explore the tech world on her own
+        </p>
+        <div class="hero-cta">
+          <a href="#portfolio" class="btn">I did some work</a>
+          <a href="#contact" class="btn btn-primary">Hit me up!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="aimen.PNG" alt="Profile Image" class="about-img" />
+            <div class="about-img-bg"></div>
+          </div>
+          <div class="about-text">
+            <h3>Care to know about me?</h3>
+            <p>I'm Aimen Munir. A forth semester CompSci student</p>
+            <p>
+              I am a fourth-semester Computer Science student at COMSATS
+              currently exploring web development and database management while
+              being the VP @ ACM CUI Lhr. I'm actively learning about creating
+              responsive, intuitive websites and designing structured databases
+              with SQL. While I'm still building my portfolio, I've completed
+              several academic assignments and smaller projects that allowed me
+              to apply HTML, CSS, and database fundamentals. I'm passionate
+              about growing my skills further and eager to collaborate on
+              practical projects to gain hands-on experience and connect with
+              others in the tech community.
+            </p>
+            <p>
+              When I'm not coding (which i try not to, extensively) I drink
+              coffee, write poems and cook.
+            </p>
+            <div class="skills-list">
+              <div class="skill-item">
+                <i class="fas fa-chevron-right"></i>
+                <span>HTML5 & CSS3</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-chevron-right"></i>
+                <span>Java, Python& C</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-chevron-right"></i>
+                <span>Currently working on react and JS</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-chevron-right"></i>
+                <span>MySQL</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-chevron-right"></i>
+                <span>Figma, Canva</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-chevron-right"></i>
+                <span>Git & GitHub</span>
+              </div>
+              <div class="skill-item">
+                <i class="fas fa-chevron-right"></i>
+                <span>Event Management</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 class="section-title">My Portfolio</h2>
+        <div class="portfolio-grid">
+          <!-- Portfolio Item 1 -->
+          <div class="portfolio-item">
+            <img src="car.png" alt="Project 1" class="portfolio-img" />
+            <div class="portfolio-overlay">
+              <h3 class="portfolio-title">Car Showroom Management</h3>
+              <p class="portfolio-category">Object Oriented Programming</p>
+              <p>
+                An Object-Oriented Car Showroom Management System designed to
+                streamline inventory tracking and sales processing. .
+              </p>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 3 -->
+          <div class="portfolio-item">
+            <img src="doodle.png" alt="Project 2" class="portfolio-img" />
+            <div class="portfolio-overlay">
+              <h3 class="portfolio-title">My Portfolio Website</h3>
+              <p class="portfolio-category">Web Design</p>
+              <p>
+                A clean, responsive portfolio showcasing my evolving web design
+                skills and growing database proficiency
+              </p>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 4-->
+          <div class="portfolio-item">
+            <img src="clinic.png" alt="Project 3" class="portfolio-img" />
+            <div class="portfolio-overlay">
+              <h3 class="portfolio-title">Patient Management System</h3>
+              <p class="portfolio-category">MySQL: Databases</p>
+              <p>
+                A Patient Management System in SQL is currently under
+                development for Adults and Adolescents Medicines Clinic,PLLC,
+                Memphis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--skills-->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+          <!-- Skill Card 1 -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3 class="skill-name">HTML5</h3>
+            <p>Creating structured, semantic web content</p>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 95%"></div>
+            </div>
+          </div>
+
+          <!-- Skill Card 2 -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3 class="skill-name">CSS3</h3>
+            <p>Styling and responsive design</p>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <!-- Skill Card 3 -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js"></i>
+            </div>
+            <h3 class="skill-name">JavaScript</h3>
+            <p>Interactive web development</p>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 85%"></div>
+            </div>
+          </div>
+
+          <!-- Skill Card 4 -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3 class="skill-name">React</h3>
+            <p>Building modern UI components</p>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <!-- Skill Card 6 -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3 class="skill-name">Databases</h3>
+            <p>MySQL</p>
+            <div class="skill-level">
+              <div class="skill-progress" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title">Experience & Education</h2>
+        <div class="timeline">
+          <!-- Experience Item 1 -->
+          <div class="timeline-item">
+            <span class="timeline-date">February 2025 - Present</span>
+            <div class="timeline-content">
+              <h3 class="timeline-title">Vice President ACM CUI Lhr</h3>
+              <p class="timeline-location">COMSATS, Lahore</p>
+              <p>
+                I'm the Vice President at ACM. Over the past year, I've poured
+                my heart into building a space where creativity, collaboration,
+                and tech innovation can thrive. From leading initiatives to
+                working with some of the most talented people I know, it's been
+                a journey of growth, challenges, and purpose.
+              </p>
+            </div>
+          </div>
+
+          <!-- Experience Item 2 -->
+          <div class="timeline-item">
+            <span class="timeline-date">October 2024- February 2025</span>
+            <div class="timeline-content">
+              <h3 class="timeline-title">Social Media Co-Lead</h3>
+              <p class="timeline-location">ACM, COMSATS Lhr</p>
+              <p>
+                Developed and engaged the social media platforms of the society
+                making plausible impact on people around the campus
+              </p>
+            </div>
+          </div>
+
+          <!-- Education Item 1 -->
+          <div class="timeline-item">
+            <span class="timeline-date">2023 - Present</span>
+            <div class="timeline-content">
+              <h3 class="timeline-title">
+                Bachelor of Science in Computer Science
+              </h3>
+              <p class="timeline-location">COMSATS Islamabad, Lahore Campus</p>
+              <p>
+                Workin on skill development along with character development and
+                teamwork.
+              </p>
+            </div>
+          </div>
+
+          <!-- Experience Item 3 -->
+          <div class="timeline-item">
+            <span class="timeline-date">2020 - 2023</span>
+            <div class="timeline-content">
+              <h3 class="timeline-title">High School</h3>
+              <p class="timeline-location">Lahore, Pakistan</p>
+              <p>Remained an A* student while improving my writing skills.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-detail">
+                <h4>Location</h4>
+                <p class="contact-value">Lahore, Pakistan</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-detail">
+                <h4>Email</h4>
+                <p class="contact-value">aimenmunir001@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-detail">
+                <h4>Phone</h4>
+                <p class="contact-value">+92 307 4454504</p>
+              </div>
+            </div>
+            <div class="contact-social">
+              <a
+                href="https://www.linkedin.com/in/aimen-munir-70134529b"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-form"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-container">
+        <a href="#home" class="footer-logo">MyPortfolio</a>
+        <ul class="footer-links">
+          <li><a href="#home" class="footer-link">Home</a></li>
+          <li><a href="#about" class="footer-link">About</a></li>
+          <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+          <li><a href="#skills" class="footer-link">Skills</a></li>
+          <li><a href="#experience" class="footer-link">Experience</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+        <div class="footer-social">
+          <a
+            href="https://www.linkedin.com/in/aimen-munir-70134529b"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="footer-copyright">© 2025 MyPortfolio. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
